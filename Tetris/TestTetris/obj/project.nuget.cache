@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hD5ibE3QV9U=",
+  "dgSpecHash": "TdVwHxd8iS8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\izarembo\\Documents\\IZarembovskyi\\Projet Tetris\\Fichiers à télécharger-20260302\\Tetris\\TestTetris\\TestTetris.csproj",
+  "projectFilePath": "C:\\Users\\izarembo\\Documents\\GitHub\\LGN-Tetris\\Tetris\\TestTetris\\TestTetris.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\izarembo\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\izarembo\\.nuget\\packages\\microsoft.codecoverage\\17.14.1\\microsoft.codecoverage.17.14.1.nupkg.sha512",

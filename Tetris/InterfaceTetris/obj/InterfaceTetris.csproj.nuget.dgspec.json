@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\izarembo\\Documents\\IZarembovskyi\\Projet Tetris\\Fichiers à télécharger-20260302\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj": {}
+    "C:\\Users\\izarembo\\Documents\\GitHub\\LGN-Tetris\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj": {}
   },
   "projects": {
-    "C:\\Users\\izarembo\\Documents\\IZarembovskyi\\Projet Tetris\\Fichiers à télécharger-20260302\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj": {
+    "C:\\Users\\izarembo\\Documents\\GitHub\\LGN-Tetris\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\izarembo\\Documents\\IZarembovskyi\\Projet Tetris\\Fichiers à télécharger-20260302\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj",
+        "projectUniqueName": "C:\\Users\\izarembo\\Documents\\GitHub\\LGN-Tetris\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj",
         "projectName": "InterfaceTetris",
-        "projectPath": "C:\\Users\\izarembo\\Documents\\IZarembovskyi\\Projet Tetris\\Fichiers à télécharger-20260302\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj",
+        "projectPath": "C:\\Users\\izarembo\\Documents\\GitHub\\LGN-Tetris\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj",
         "packagesPath": "C:\\Users\\izarembo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\izarembo\\Documents\\IZarembovskyi\\Projet Tetris\\Fichiers à télécharger-20260302\\Tetris\\InterfaceTetris\\obj\\",
+        "outputPath": "C:\\Users\\izarembo\\Documents\\GitHub\\LGN-Tetris\\Tetris\\InterfaceTetris\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
