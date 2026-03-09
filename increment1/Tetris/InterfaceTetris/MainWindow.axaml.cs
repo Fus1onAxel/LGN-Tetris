@@ -88,6 +88,22 @@ public partial class MainWindow : Window
         });
     }
 
+    /** DessinerCarre
+        La fonction dessine un carré sur scène en fonction des coordonnées données et la couleur
+        @author IvanZarembovskyi
+        @param x la coordonnée horizontale dans l'espace dans la grille des carrés
+        @param y la coordonnée verticale dans l'espace dans la grille des carrés
+        @param couleur la couleur du remplissage du fond du carré
+    */
+    public void DessinerCarre(int x, int y, Avalonia.Media.IBrush couleur)
+    {
+        //Création du carré outline
+        DessinerRectangle(x, y, 22, 22, couleur);
+        //Remplissage du fond du carré
+        DessinerRectangle(x, y, 20, 20, )
+    }
+
+
     /*
 
     */
