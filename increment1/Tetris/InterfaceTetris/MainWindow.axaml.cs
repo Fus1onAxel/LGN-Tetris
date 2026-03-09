@@ -123,6 +123,7 @@ public partial class MainWindow : Window
     public void DemarrerInterface()
     {
         Console.WriteLine("Démarrage du jeu de Tetris à coder...");
+        DessinerCarre(0, 0, IImmutableSolidColorBrush.Yellow);
     }
 
     /* ... */
