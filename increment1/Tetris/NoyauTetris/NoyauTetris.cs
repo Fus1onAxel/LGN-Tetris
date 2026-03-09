@@ -19,8 +19,8 @@ public class JeuTetris
 
 enum TetrinoCouleur
 {
-    black,
     white,
+    black,
     blue,
     green,
     red,
