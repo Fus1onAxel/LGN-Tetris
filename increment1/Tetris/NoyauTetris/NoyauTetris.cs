@@ -19,5 +19,12 @@ public class JeuTetris
 
 enum TetrinoCouleur
 {
-    
+    black = IImmutableSolidColorBrush Black { get; },
+    white = IImmutableSolidColorBrush White { get; },
+    blue = IImmutableSolidColorBrush Blue { get; },
+    green = IImmutableSolidColorBrush Green { get; },
+    red = IImmutableSolidColorBrush Red { get; },
+    yellow = IImmutableSolidColorBrush Yellow { get; },
+    violet = IImmutableSolidColorBrush Violet { get; },
+    orange = IImmutableSolidColorBrush Orange { get; }
 }
