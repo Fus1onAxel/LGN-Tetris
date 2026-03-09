@@ -149,8 +149,9 @@ public partial class MainWindow : Window
     }
 
 
-    /*
-
+    /* DessinerCarre
+        La fonction dessine le cadre de jeu qui se compose d'un cadre noir au fond pour la marge des cotes et du bas et un cadre blanc centré au dessus qui est plus petit.
+        @author UrielLENQUETTE
     */
 
     public void DessinerCadre()
