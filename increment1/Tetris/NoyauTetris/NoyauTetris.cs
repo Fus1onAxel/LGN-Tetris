@@ -10,10 +10,10 @@ public class JeuTetris
     public int LargeurGrille;
     public int HauteurGrille;
 
-    public JeuTetris(int l, int h)
+    public JeuTetris()
     {
-        LargeurGrille = l;
-        HauteurGrille = h;
+        LargeurGrille = 12;
+        HauteurGrille = 15;
     }
 }
 
