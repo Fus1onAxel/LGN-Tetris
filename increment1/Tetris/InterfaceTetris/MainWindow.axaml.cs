@@ -10,6 +10,7 @@ using Avalonia.Controls;
 using Avalonia.Input;
 using System;
 using Avalonia.Threading;
+using NoyauTetris;
 // à ajouter à partir de l'itération 1
 //using NoyauTetris;
 
@@ -85,6 +86,15 @@ public partial class MainWindow : Window
             Fill = couleur,
             Margin = new Thickness(x, y, 0, 0) 
         });
+    }
+
+    /*
+    
+    */
+
+    public void DessinerCadre()
+    {
+        
     }
 
     /* ... */
