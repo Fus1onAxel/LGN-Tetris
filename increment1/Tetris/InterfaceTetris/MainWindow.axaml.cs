@@ -89,11 +89,18 @@ public partial class MainWindow : Window
     }
 
     /*
-    
+
     */
 
     public void DessinerCadre()
     {
+        int coteCadrePixel = 22;
+        int pixelLargeurGrilleInterieur = NoyauTetris.JeuTetris.LargeurGrille * coteCadrePixel;
+        int pixelHauteurGrilleInterieur = NoyauTetris.JeuTetris.HauteurTetris * coteCadrePixel;
+        int pixelLargeurGrilleExterieur = pixelHauteurGrilleInterieur + 12*2;
+        int pixelHauteurGrilleExterieur = pixelHauteurGrilleInterieur + 12;
+        DessinerRectangle(0, 0, pixelLargeurGrilleExterieur, pixelHauteurGrilleExterieur, black);
+        DessinerRectangle(12, 0, pixelLargeurGrilleInterieur, pixelHauteurGrilleInterieur, white);
         
     }
 
