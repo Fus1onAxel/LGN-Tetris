@@ -37,7 +37,7 @@ public partial class MainWindow : Window
         StartButton.Width = 200;
         StartButton.Height = 30;
         QuitButton.Width = 200;
-        QuitButton.Height = 30; 
+        QuitButton.Height = 40; 
         // Initialise le minuteur pour faire descendre le tetrino courant toutes les 500 milisecondes
         Minuteur = new DispatcherTimer();
         Minuteur.Interval = TimeSpan.FromMilliseconds(500);
@@ -87,6 +87,21 @@ public partial class MainWindow : Window
             Margin = new Thickness(x, y, 0, 0) 
         });
     }
+
+    public IImmutableSolidColorBrush TranslateColor(int color)
+    {
+        for 
+    }
+
+
+    // black = IImmutableSolidColorBrush Black { get; },
+    // white = IImmutableSolidColorBrush White { get; },
+    // blue = IImmutableSolidColorBrush Blue { get; },
+    // green = IImmutableSolidColorBrush Green { get; },
+    // red = IImmutableSolidColorBrush Red { get; },
+    // yellow = IImmutableSolidColorBrush Yellow { get; },
+    // violet = IImmutableSolidColorBrush Violet { get; },
+    // orange = IImmutableSolidColorBrush Orange { get; }
 
     /** DessinerCarre
         La fonction dessine un carré sur scène en fonction des coordonnées données et la couleur
