@@ -98,9 +98,9 @@ public partial class MainWindow : Window
     public void DessinerCarre(int x, int y, Avalonia.Media.IBrush couleur)
     {
         //Création du carré qui correspond à l'outline
-        DessinerRectangle(x, y, 22, 22, couleur);
+        DessinerRectangle((x*22+12), y*22, 22, 22, IImmutableSolidColorBrush.Black);
         //Remplissage du fond du carré par création d'un autre carré
-        DessinerRectangle(x, y, 20, 20, IImmutableSolidColorBrush.Black);
+        DessinerRectangle((x*22+12), y*22, 20, 20, couleur);
     }
 
 
