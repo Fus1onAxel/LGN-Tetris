@@ -101,7 +101,6 @@ public partial class MainWindow : Window
         int pixelHauteurGrilleExterieur = pixelHauteurGrilleInterieur + 12;
         DessinerRectangle(0, 0, pixelLargeurGrilleExterieur, pixelHauteurGrilleExterieur, black);
         DessinerRectangle(12, 0, pixelLargeurGrilleInterieur, pixelHauteurGrilleInterieur, white);
-        
     }
 
     /* ... */
