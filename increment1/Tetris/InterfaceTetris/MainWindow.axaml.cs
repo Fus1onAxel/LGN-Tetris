@@ -141,13 +141,12 @@ public partial class MainWindow : Window
     */
     public void DessinerCarre(int x, int y, Avalonia.Media.IBrush couleur)
     {
-        //Les coordonnées sont conver
+        //Les coordonnées sont converties
         //Création du carré qui correspond à la bordure
         DessinerRectangle((x*22+12), y*22, 22, 22, TranslateColor(1));
         //Remplissage du fond du carré par création d'un autre carré
         DessinerRectangle((x*22+12), y*22, 20, 20, couleur);
     }
-
 
     /* DessinerCarre
         La fonction dessine le cadre de jeu qui se compose d'un cadre noir au fond pour la marge des cotes et du bas et un cadre blanc centré au dessus qui est plus petit.
