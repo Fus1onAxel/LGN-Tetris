@@ -1,4 +1,4 @@
-﻿namespace NoyauTetris;
+﻿namespace Tetris.NoyauTetris;
 
 public class NoyauTetris
 {

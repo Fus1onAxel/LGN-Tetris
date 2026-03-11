@@ -10,10 +10,11 @@ using Avalonia.Controls;
 using Avalonia.Input;
 using System;
 using Avalonia.Threading;
+using Tetris.NoyauTetris; // FAIRE FONCTIONNER NOYAUXTETRIS AVEC MAINWINDOW
 // à ajouter à partir de l'itération 1
 //using NoyauTetris;
 
-namespace InterfaceTetris;
+namespace Tetris.InterfaceTetris;
 
 /* Gère la fenêtre principale du jeu de Tetris, et l'ensemble des interactions du jeu. */
 public partial class MainWindow : Window
