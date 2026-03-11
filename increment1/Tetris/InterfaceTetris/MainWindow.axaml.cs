@@ -164,8 +164,8 @@ public partial class MainWindow : Window
         int pixelHauteurGrilleInterieur = NoyauTetris.JeuTetris.HauteurTetris * coteCadrePixel;
         int pixelLargeurGrilleExterieur = pixelHauteurGrilleInterieur + 12*2;
         int pixelHauteurGrilleExterieur = pixelHauteurGrilleInterieur + 12;
-        DessinerRectangle(0, 0, pixelLargeurGrilleExterieur, pixelHauteurGrilleExterieur, black);
-        DessinerRectangle(12, 0, pixelLargeurGrilleInterieur, pixelHauteurGrilleInterieur, white);
+        DessinerRectangle(0, 0, pixelLargeurGrilleExterieur, pixelHauteurGrilleExterieur, TranslateColor(TetrinoCouleur.black));
+        DessinerRectangle(12, 0, pixelLargeurGrilleInterieur, pixelHauteurGrilleInterieur, TranslateColor(TetrinoCouleur.white));
     }
 
     /* ... */
@@ -173,9 +173,9 @@ public partial class MainWindow : Window
     {
         Console.WriteLine("Démarrage du jeu de Tetris à coder...");
         DessinerCadre();
-        DessinerCarre(0, 0, IImmutableSolidColorBrush.Red);
-        DessinerCarre(1, 1, IImmutableSolidColorBrush.Yellow);
-        DessinerCarre(2, 2, IImmutableSolidColorBrush.Blue);
+        DessinerCarre(0, 0, TranslateColor(TetrinoCouleur.red));
+        DessinerCarre(1, 1, TranslateColor(TetrinoCouleur.yellow));
+        DessinerCarre(2, 2, TranslateColor(TetrinoCouleur.blue));
     }
 
     /* ... */
