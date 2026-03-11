@@ -143,7 +143,7 @@ public partial class MainWindow : Window
         DessinerRectangle((x*22+12), y*22, 20, 20, couleur);
     }
 
-    /* DessinerCarre
+    /* DessinerCadre
         La fonction dessine le cadre de jeu qui se compose d'un cadre noir au fond pour la marge des cotes et du bas et un cadre blanc centré au dessus qui est plus petit.
         @author UrielLENQUETTE
     */
