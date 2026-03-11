@@ -89,7 +89,7 @@ public partial class MainWindow : Window
     }
 
     /**
-    
+    Prend un int et renvoie une couleur 
     */
     public IImmutableSolidColorBrush TranslateColor(int color)
     {
