@@ -1,0 +1,8 @@
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\InterfaceTetris\obj\Release\net8.0\InterfaceTetris.csproj.AssemblyReference.cache
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\InterfaceTetris\obj\Release\net8.0\Avalonia\Resources.Inputs.cache
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\InterfaceTetris\obj\Release\net8.0\Avalonia\resources
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\InterfaceTetris\obj\Release\net8.0\InterfaceTetris.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\InterfaceTetris\obj\Release\net8.0\InterfaceTetris.AssemblyInfoInputs.cache
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\InterfaceTetris\obj\Release\net8.0\InterfaceTetris.AssemblyInfo.cs
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\InterfaceTetris\obj\Release\net8.0\InterfaceTetris.csproj.CoreCompileInputs.cache
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\InterfaceTetris\obj\Release\net8.0\InterfaceTetris.sourcelink.json

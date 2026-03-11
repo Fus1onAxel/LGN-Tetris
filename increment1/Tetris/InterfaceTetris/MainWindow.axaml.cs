@@ -15,6 +15,7 @@ using NoyauTetris;
 //using NoyauTetris;
 
 namespace InterfaceTetris;
+using NoyauTetris;
 
 /* Gère la fenêtre principale du jeu de Tetris, et l'ensemble des interactions du jeu. */
 public partial class MainWindow : Window
@@ -91,41 +92,6 @@ public partial class MainWindow : Window
     /**
     Prend un int et renvoie une couleur 
     */
-    public IImmutableSolidColorBrush TranslateColor(int color)
-    {
-        switch (color)
-        {
-            case 0:
-                return IImmutableSolidColorBrush White { get; };
-
-            case 1:
-                return IImmutableSolidColorBrush Black { get; };
-
-            case 2:
-                return IImmutableSolidColorBrush Blue { get; };
-
-            case 3:
-                return IImmutableSolidColorBrush Green { get; };
-
-            case 4:
-                return IImmutableSolidColorBrush Red { get; };
-
-            case 5:
-                return IImmutableSolidColorBrush Yellow { get; };
-
-            case 6:
-                return IImmutableSolidColorBrush Violet { get; };
-
-            case 7:
-                return IImmutableSolidColorBrush Orange { get; };
-
-            default:
-                throw new IndexOutOfRangeException("La couleur n'est pas possible, elle doit etre comprise entre 0 et 7");
-                break;
-        }
-    }
-
-
 
     /** DessinerCarre
         La fonction dessine un carré sur scène en fonction des coordonnées données et la couleur
@@ -156,8 +122,8 @@ public partial class MainWindow : Window
         int pixelHauteurGrilleInterieur = NoyauTetris.JeuTetris.HauteurTetris * coteCadrePixel;
         int pixelLargeurGrilleExterieur = pixelHauteurGrilleInterieur + 12*2;
         int pixelHauteurGrilleExterieur = pixelHauteurGrilleInterieur + 12;
-        DessinerRectangle(0, 0, pixelLargeurGrilleExterieur, pixelHauteurGrilleExterieur, TranslateColor(TetrinoCouleur.black));
-        DessinerRectangle(12, 0, pixelLargeurGrilleInterieur, pixelHauteurGrilleInterieur, TranslateColor(TetrinoCouleur.white));
+        DessinerRectangle(0, 0, pixelLargeurGrilleExterieur, pixelHauteurGrilleExterieur, Avanolia.Media.IBrush.Black);
+        DessinerRectangle(12, 0, pixelLargeurGrilleInterieur, pixelHauteurGrilleInterieur, Avalonia.Media.IBrush.White);
     }
 
     /* ... */

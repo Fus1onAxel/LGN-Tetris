@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uf5FKKf4uq0=",
+  "dgSpecHash": "Y8Qy2+U6ZPI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\izarembo\\Documents\\GitHub\\LGN-Tetris\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj",
+  "projectFilePath": "C:\\Users\\izarembo\\Documents\\GitHub\\LGN-Tetris\\iteration0\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\izarembo\\.nuget\\packages\\avalonia\\11.3.12\\avalonia.11.3.12.nupkg.sha512",
     "C:\\Users\\izarembo\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.25547.20250602\\avalonia.angle.windows.natives.2.1.25547.20250602.nupkg.sha512",
@@ -30,6 +30,7 @@
     "C:\\Users\\izarembo\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.9\\skiasharp.nativeassets.macos.2.88.9.nupkg.sha512",
     "C:\\Users\\izarembo\\.nuget\\packages\\skiasharp.nativeassets.webassembly\\2.88.9\\skiasharp.nativeassets.webassembly.2.88.9.nupkg.sha512",
     "C:\\Users\\izarembo\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.9\\skiasharp.nativeassets.win32.2.88.9.nupkg.sha512",
+    "C:\\Users\\izarembo\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\izarembo\\.nuget\\packages\\tmds.dbus.protocol\\0.21.2\\tmds.dbus.protocol.0.21.2.nupkg.sha512"
   ],
   "logs": []
