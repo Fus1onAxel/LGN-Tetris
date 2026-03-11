@@ -88,6 +88,9 @@ public partial class MainWindow : Window
         });
     }
 
+    /**
+    
+    */
     public IImmutableSolidColorBrush TranslateColor(int color)
     {
         switch (color)
@@ -160,8 +163,8 @@ public partial class MainWindow : Window
         int pixelHauteurGrilleInterieur = NoyauTetris.JeuTetris.HauteurTetris * coteCadrePixel;
         int pixelLargeurGrilleExterieur = pixelHauteurGrilleInterieur + 12*2;
         int pixelHauteurGrilleExterieur = pixelHauteurGrilleInterieur + 12;
-        DessinerRectangle(0, 0, pixelLargeurGrilleExterieur, pixelHauteurGrilleExterieur, black);
-        DessinerRectangle(12, 0, pixelLargeurGrilleInterieur, pixelHauteurGrilleInterieur, white);
+        DessinerRectangle(0, 0, pixelLargeurGrilleExterieur, pixelHauteurGrilleExterieur, TranslateColor(1));
+        DessinerRectangle(12, 0, pixelLargeurGrilleInterieur, pixelHauteurGrilleInterieur, TranslateColor(0));
     }
 
     /* ... */
