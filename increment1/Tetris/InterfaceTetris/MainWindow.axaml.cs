@@ -88,6 +88,9 @@ public partial class MainWindow : Window
         });
     }
 
+    /**
+    
+    */
     public IImmutableSolidColorBrush TranslateColor(int color)
     {
         switch (color)
