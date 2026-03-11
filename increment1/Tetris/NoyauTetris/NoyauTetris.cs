@@ -19,9 +19,9 @@ public class JeuTetris
 
 enum TetrinoCouleur
 {
-    white,
-    black,
-    blue,
+    white, //absence de carré en blanc
+    black, //cadre et le tour des carrés en noir
+    blue,  //reste des couleurs pour les tetrinos
     green,
     red,
     yellow,
