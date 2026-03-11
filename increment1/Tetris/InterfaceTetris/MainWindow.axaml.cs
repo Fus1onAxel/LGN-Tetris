@@ -25,18 +25,18 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
         // Défini la taille de la fenêtre à partir des constantes
-        Width = 300;
-        Height = 600;
+        Width = 400;
+        Height = 800;
         // Définit le texte de InfoText
         InfoText.Text = "Zone de texte";
         // Défini la taille du canvas à partir des constantes
-        TetrisCanvas.Width = 200;
-        TetrisCanvas.Height = 400;
+        TetrisCanvas.Width = 288;
+        TetrisCanvas.Height = 342;
         // Défini la taille des boutons à partir des constantes
         StartButton.Width = 200;
         StartButton.Height = 30;
         QuitButton.Width = 200;
-        QuitButton.Height = 30; 
+        QuitButton.Height = 40; 
         // Initialise le minuteur pour faire descendre le tetrino courant toutes les 500 milisecondes
         Minuteur = new DispatcherTimer();
         Minuteur.Interval = TimeSpan.FromMilliseconds(500);
@@ -72,6 +72,7 @@ public partial class MainWindow : Window
                 TombeInterface();
             }
         };
+        DessinerCadre();
     } 
 
     /* Dessine un rectangle dans le TetrisCanvas, à la position (x, y), de largeur width, 
@@ -86,7 +87,44 @@ public partial class MainWindow : Window
             Margin = new Thickness(x, y, 0, 0) 
         });
     }
+    public Avalonia.Media.IBrush TranslateColor(int color) //TetrinoCouleur.couleur
+    {
+        switch (color)
+        {
+            case 0:
+                return Avalonia.Media.Brushes.White;
 
+            case 1:
+                return Avalonia.Media.Brushes.Black;
+
+            case 2:
+                return Avalonia.Media.Brushes.Blue;
+
+            case 3:
+                return Avalonia.Media.Brushes.Green;
+
+            case 4:
+                return Avalonia.Media.Brushes.Red;
+
+            case 5:
+                return Avalonia.Media.Brushes.Yellow;
+
+            case 6:
+                return Avalonia.Media.Brushes.Violet;
+
+            case 7:
+                return Avalonia.Media.Brushes.Orange;
+
+            default:
+                Console.WriteLine("La couleur doit être comprise entre 0 et 7");
+                return Avalonia.Media.Brushes.White;
+        }
+    }
+    public void DessinerCadre()
+    {
+        DessinerRectangle(0, 0, 288, 342, TranslateColor(1));
+        DessinerRectangle(12, 0, 264, 330, TranslateColor(0));
+    }
     /* ... */
     public void DemarrerInterface()
     {
