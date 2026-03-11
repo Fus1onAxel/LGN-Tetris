@@ -122,8 +122,8 @@ public partial class MainWindow : Window
     }
     public void DessinerCadre()
     {
-        DessinerRectangle(0, 0, 288, 342, TranslateColor(1));
-        DessinerRectangle(12, 0, 264, 330, TranslateColor(0));
+        DessinerRectangle(0, 0, 288, 342, TranslateColor(1));  // changer 1 et 0 par
+        DessinerRectangle(12, 0, 264, 330, TranslateColor(0)); // TetrinoCouleur.couleur
     }
     /* ... */
     public void DemarrerInterface()
