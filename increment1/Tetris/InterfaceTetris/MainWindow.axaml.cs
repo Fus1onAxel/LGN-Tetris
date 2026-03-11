@@ -142,7 +142,7 @@ public partial class MainWindow : Window
     public void DessinerCarre(int x, int y, Avalonia.Media.IBrush couleur)
     {
         //Les coordonnées sont conver
-        //Création du carré qui correspond à l'outline
+        //Création du carré qui correspond à la bordure
         DessinerRectangle((x*22+12), y*22, 22, 22, TranslateColor(1));
         //Remplissage du fond du carré par création d'un autre carré
         DessinerRectangle((x*22+12), y*22, 20, 20, couleur);
