@@ -96,39 +96,31 @@ public partial class MainWindow : Window
         switch (color)
         {
             case = 0:
-                return IImmutableSolidColorBrush White { get; };
-                break;
+                return IImmutableSolidColorBrush White { get; };              
 
             case = 1:
-                return IImmutableSolidColorBrush Black { get; };
-                break;
+                return IImmutableSolidColorBrush Black { get; };             
 
             case = 2:
-                return IImmutableSolidColorBrush Blue { get; };
-                break;
+                return IImmutableSolidColorBrush Blue { get; };             
 
             case = 3:
-                return IImmutableSolidColorBrush Green { get; };
-                break;
+                return IImmutableSolidColorBrush Green { get; };            
 
             case = 4:
-                return IImmutableSolidColorBrush Red { get; };
-                break;
+                return IImmutableSolidColorBrush Red { get; };            
 
             case = 5:
-                return IImmutableSolidColorBrush Yellow { get; };
-                break;
+                return IImmutableSolidColorBrush Yellow { get; };           
 
             case = 6:
-                return IImmutableSolidColorBrush Violet { get; };
-                break;
+                return IImmutableSolidColorBrush Violet { get; };         
 
             case = 7:
                 return IImmutableSolidColorBrush Orange { get; };
-                break;
 
             default:
-                Console.WriteLine("la couleur n'est pas possible, elle doit etre comprise entre 0 et 7");
+                throw new IndexOutOfRangeException("La couleur n'est pas possible, elle doit etre comprise entre 0 et 7");
                 break;
         }
     }
