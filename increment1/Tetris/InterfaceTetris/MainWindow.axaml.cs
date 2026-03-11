@@ -89,49 +89,41 @@ public partial class MainWindow : Window
     }
 
     /**
-    Prend un int et renvoie une couleur 
+    
     */
-    public IImmutableSolidColorBrush TranslateColor(int color)
+public IImmutableSolidColorBrush TranslateColor(int color)
+{
+    switch (color)
     {
-        switch (color)
-        {
-            case = 0:
-                return IImmutableSolidColorBrush White { get; };
-                break;
+        case 0:
+            return Brushes.White;
 
-            case = 1:
-                return IImmutableSolidColorBrush Black { get; };
-                break;
+        case 1:
+            return Brushes.Black;
 
-            case = 2:
-                return IImmutableSolidColorBrush Blue { get; };
-                break;
+        case 2:
+            return Brushes.Blue;
 
-            case = 3:
-                return IImmutableSolidColorBrush Green { get; };
-                break;
+        case 3:
+            return Brushes.Green;
 
-            case = 4:
-                return IImmutableSolidColorBrush Red { get; };
-                break;
+        case 4:
+            return Brushes.Red;
 
-            case = 5:
-                return IImmutableSolidColorBrush Yellow { get; };
-                break;
+        case 5:
+            return Brushes.Yellow;
 
-            case = 6:
-                return IImmutableSolidColorBrush Violet { get; };
-                break;
+        case 6:
+            return Brushes.Violet;
 
-            case = 7:
-                return IImmutableSolidColorBrush Orange { get; };
-                break;
+        case 7:
+            return Brushes.Orange;
 
-            default:
-                Console.WriteLine("la couleur n'est pas possible, elle doit etre comprise entre 0 et 7");
-                break;
-        }
+        default:
+            Console.WriteLine("La couleur doit être comprise entre 0 et 7");
+            return Brushes.White;
     }
+}
 
 
 
