@@ -97,39 +97,31 @@ public partial class MainWindow : Window
         {
             case = 0:
                 return IImmutableSolidColorBrush White { get; };
-                break;
 
             case = 1:
                 return IImmutableSolidColorBrush Black { get; };
-                break;
+
 
             case = 2:
                 return IImmutableSolidColorBrush Blue { get; };
-                break;
 
             case = 3:
                 return IImmutableSolidColorBrush Green { get; };
-                break;
 
             case = 4:
                 return IImmutableSolidColorBrush Red { get; };
-                break;
 
             case = 5:
                 return IImmutableSolidColorBrush Yellow { get; };
-                break;
 
             case = 6:
                 return IImmutableSolidColorBrush Violet { get; };
-                break;
 
             case = 7:
                 return IImmutableSolidColorBrush Orange { get; };
-                break;
 
             default:
                 Console.WriteLine("la couleur n'est pas possible, elle doit etre comprise entre 0 et 7");
-                break;
         }
     }
 
