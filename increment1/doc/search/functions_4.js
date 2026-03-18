@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['main_0',['Main',['../class_interface_tetris_1_1_program.html#acdfd86c6764b032f252b3b8a6aef008f',1,'InterfaceTetris::Program']]],
-  ['mainwindow_1',['MainWindow',['../class_interface_tetris_1_1_main_window.html#ab8ff53330f02fbd80996aed87ef19914',1,'InterfaceTetris::MainWindow']]]
+  ['jeutetris_0',['JeuTetris',['../class_tetris_1_1_noyau_tetris_1_1_jeu_tetris.html#a4d4fcb3229b30cf37bd59fd60ce1d87c',1,'Tetris::NoyauTetris::JeuTetris']]]
 ];
