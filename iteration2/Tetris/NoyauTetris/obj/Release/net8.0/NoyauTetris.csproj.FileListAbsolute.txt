@@ -1,0 +1,12 @@
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\NoyauTetris\bin\Release\net8.0\NoyauTetris.deps.json
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\NoyauTetris\bin\Release\net8.0\NoyauTetris.dll
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\NoyauTetris\bin\Release\net8.0\NoyauTetris.pdb
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\NoyauTetris\obj\Release\net8.0\NoyauTetris.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\NoyauTetris\obj\Release\net8.0\NoyauTetris.AssemblyInfoInputs.cache
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\NoyauTetris\obj\Release\net8.0\NoyauTetris.AssemblyInfo.cs
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\NoyauTetris\obj\Release\net8.0\NoyauTetris.csproj.CoreCompileInputs.cache
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\NoyauTetris\obj\Release\net8.0\NoyauTetris.sourcelink.json
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\NoyauTetris\obj\Release\net8.0\NoyauTetris.dll
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\NoyauTetris\obj\Release\net8.0\refint\NoyauTetris.dll
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\NoyauTetris\obj\Release\net8.0\NoyauTetris.pdb
+C:\Users\izarembo\Documents\GitHub\LGN-Tetris\increment1\Tetris\NoyauTetris\obj\Release\net8.0\ref\NoyauTetris.dll
