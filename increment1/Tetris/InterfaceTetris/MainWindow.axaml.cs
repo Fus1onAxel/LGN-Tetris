@@ -10,9 +10,7 @@ using Avalonia.Controls;
 using Avalonia.Input;
 using System;
 using Avalonia.Threading;
-using Tetris.NoyauTetris; // FAIRE FONCTIONNER NOYAUXTETRIS AVEC MAINWINDOW
-// à ajouter à partir de l'itération 1
-//using NoyauTetris;
+using Tetris.NoyauTetris;
 
 namespace Tetris.InterfaceTetris;
 
@@ -25,6 +23,7 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+
         // Défini la taille de la fenêtre à partir des constantes
         Width = 400;
         Height = 800;
@@ -74,6 +73,9 @@ public partial class MainWindow : Window
             }
         };
         DessinerCadre();
+        DessinerCarre(0, 0, TranslateColor(5));
+        DessinerCarre(1, 1, TranslateColor(3));
+        DessinerCarre(2, 2, TranslateColor(4));
     } 
 
     /* Dessine un rectangle dans le TetrisCanvas, à la position (x, y), de largeur width, 
@@ -121,11 +123,33 @@ public partial class MainWindow : Window
                 return Avalonia.Media.Brushes.White;
         }
     }
+
+    /* DessinerCadre
+        La fonction dessine le cadre de jeu qui se compose d'un cadre noir au fond pour la marge des cotes et du bas et un cadre blanc centré au dessus qui est plus petit.
+        @author UrielLENQUETTE
+    */
     public void DessinerCadre()
     {
-        DessinerRectangle(0, 0, 288, 342, TranslateColor(1));  // changer 1 et 0 par
-        DessinerRectangle(12, 0, 264, 330, TranslateColor(0)); // TetrinoCouleur.couleur
+        DessinerRectangle(0, 0, 288, 342, TranslateColor(1));
+        DessinerRectangle(12, 0, 264, 330, TranslateColor(0)); 
     }
+
+    /** DessinerCarre
+        La fonction dessine un carré sur scène en fonction des coordonnées données et la couleur
+        @author IvanZarembovskyi
+        @param x la coordonnée horizontale dans l'espace dans la grille des carrés
+        @param y la coordonnée verticale dans l'espace dans la grille des carrés
+        @param couleur la couleur du remplissage du fond du carré
+    */
+    public void DessinerCarre(int x, int y, Avalonia.Media.IBrush couleur)
+    {
+        //Les coordonnées sont converties
+        //Création du carré qui correspond à la bordure
+        DessinerRectangle((x*22+12)-1, y*22, 22, 22, TranslateColor(1));
+        //Remplissage du fond du carré par création d'un autre carré
+        DessinerRectangle((x*22+12)+1, y*22+2, 18, 18, couleur);
+    }
+
     /* ... */
     public void DemarrerInterface()
     {

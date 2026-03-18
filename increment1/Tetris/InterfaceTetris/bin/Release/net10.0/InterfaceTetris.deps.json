@@ -11,7 +11,8 @@
           "Avalonia": "11.3.12",
           "Avalonia.Desktop": "11.3.12",
           "Avalonia.Fonts.Inter": "11.3.12",
-          "Avalonia.Themes.Fluent": "11.3.12"
+          "Avalonia.Themes.Fluent": "11.3.12",
+          "NoyauTetris": "1.0.0"
         },
         "runtime": {
           "InterfaceTetris.dll": {}
@@ -388,6 +389,14 @@
             "fileVersion": "0.21.2.0"
           }
         }
+      },
+      "NoyauTetris/1.0.0": {
+        "runtime": {
+          "NoyauTetris.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -543,6 +552,11 @@
       "sha512": "sha512-ScSMrUrrw8px4kK1Glh0fZv/HQUlg1078bNXNPfRPKQ3WbRzV9HpsydYEOgSoMK5LWICMf2bMwIFH0pGjxjcMA==",
       "path": "tmds.dbus.protocol/0.21.2",
       "hashPath": "tmds.dbus.protocol.0.21.2.nupkg.sha512"
+    },
+    "NoyauTetris/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

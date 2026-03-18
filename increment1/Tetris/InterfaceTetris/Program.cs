@@ -1,7 +1,7 @@
 ﻿using Avalonia;
 using System;
 
-namespace InterfaceTetris;
+namespace Tetris.InterfaceTetris;
 
 class Program
 {
