@@ -1,0 +1,14 @@
+var annotated_dup =
+[
+    [ "InterfaceTetris", "namespace_interface_tetris.html", [
+      [ "App", "class_interface_tetris_1_1_app.html", "class_interface_tetris_1_1_app" ],
+      [ "MainWindow", "class_interface_tetris_1_1_main_window.html", "class_interface_tetris_1_1_main_window" ],
+      [ "Program", "class_interface_tetris_1_1_program.html", "class_interface_tetris_1_1_program" ]
+    ] ],
+    [ "NoyauTetris", "namespace_noyau_tetris.html", [
+      [ "NoyauTetris", "class_noyau_tetris_1_1_noyau_tetris.html", null ]
+    ] ],
+    [ "TestTetris", "namespace_test_tetris.html", [
+      [ "UnitTest1", "class_test_tetris_1_1_unit_test1.html", "class_test_tetris_1_1_unit_test1" ]
+    ] ]
+];
