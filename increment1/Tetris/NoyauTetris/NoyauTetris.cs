@@ -17,14 +17,14 @@ public class JeuTetris
     }
 }
 
-enum TetrinoCouleur
+public enum TetrinoCouleur
 {
-    white, //absence de carré en blanc
-    black, //cadre et le tour des carrés en noir
-    blue,  //reste des couleurs pour les tetrinos
-    green,
-    red,
-    yellow,
-    violet,
-    orange
+    white = 0, //absence de carré en blanc
+    black = 1, //cadre et le tour des carrés en noir
+    blue = 2,  //reste des couleurs pour les tetrinos
+    green = 3,
+    red = 4,
+    yellow = 5,
+    violet = 6,
+    orange = 7
 }

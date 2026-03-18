@@ -73,9 +73,9 @@ public partial class MainWindow : Window
             }
         };
         DessinerCadre();
-        DessinerCarre(0, 0, TranslateColor(5));
-        DessinerCarre(1, 1, TranslateColor(3));
-        DessinerCarre(2, 2, TranslateColor(4));
+        DessinerCarre(0, 0, TranslateColor((int)TetrinoCouleur.yellow));
+        DessinerCarre(1, 1, TranslateColor((int)TetrinoCouleur.green));
+        DessinerCarre(2, 2, TranslateColor((int)TetrinoCouleur.red));
     } 
 
     /* Dessine un rectangle dans le TetrisCanvas, à la position (x, y), de largeur width, 
@@ -130,8 +130,8 @@ public partial class MainWindow : Window
     */
     public void DessinerCadre()
     {
-        DessinerRectangle(0, 0, 288, 342, TranslateColor(1));
-        DessinerRectangle(12, 0, 264, 330, TranslateColor(0)); 
+        DessinerRectangle(0, 0, 288, 342, TranslateColor((int)TetrinoCouleur.black));
+        DessinerRectangle(12, 0, 264, 330, TranslateColor((int)TetrinoCouleur.white));
     }
 
     /** DessinerCarre
@@ -145,7 +145,7 @@ public partial class MainWindow : Window
     {
         //Les coordonnées sont converties
         //Création du carré qui correspond à la bordure
-        DessinerRectangle((x*22+12)-1, y*22, 22, 22, TranslateColor(1));
+        DessinerRectangle((x*22+12)-1, y*22, 22, 22, TranslateColor((int)TetrinoCouleur.black));
         //Remplissage du fond du carré par création d'un autre carré
         DessinerRectangle((x*22+12)+1, y*22+2, 18, 18, couleur);
     }
