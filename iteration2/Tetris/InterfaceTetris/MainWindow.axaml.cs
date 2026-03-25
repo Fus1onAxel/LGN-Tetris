@@ -22,7 +22,8 @@ public partial class MainWindow : Window
 {
     /* Minuteur qui déclanche régulièrement un évènement. */
     public DispatcherTimer Minuteur;
-    
+    public JeuTetris Jeu;
+
     public MainWindow()
     {
         InitializeComponent();
@@ -42,7 +43,9 @@ public partial class MainWindow : Window
         // Initialise le minuteur pour faire descendre le tetrino courant toutes les 500 milisecondes
         Minuteur = new DispatcherTimer();
         Minuteur.Interval = TimeSpan.FromMilliseconds(500);
-        Minuteur.Tick += (s, e) => { BasInterface();};   
+        Minuteur.Tick += (s, e) => { BasInterface();};  
+        //Initialisation de l'objet Jeu (JeuTetris) 
+        Jeu = new JeuTetris();
         // détecte le clic sur le bouton Démarrer, déclanche l'évènement Demarrer, puis appelle la méthode DemarrerTetris
         StartButton.Click += (s, e) => { DemarrerInterface();};
         // détecte le clic sur le bouton Quitter, déclanche l'évènement Quiter, puis ferme la fenêtre
@@ -124,6 +127,15 @@ public partial class MainWindow : Window
         int pixelHauteurGrilleExterieur = pixelHauteurGrilleInterieur + 12;
         DessinerRectangle(0, 0, pixelLargeurGrilleExterieur, pixelHauteurGrilleExterieur, Avanolia.Media.IBrush.Black);
         DessinerRectangle(12, 0, pixelLargeurGrilleInterieur, pixelHauteurGrilleInterieur, Avalonia.Media.IBrush.White);
+    }
+
+    /** DessinerJeu
+        La fonction qui réinitilise le cadre du jeu ainsi que le tetrino qui est en train de tomber
+        @author IvanZAREMBOVSKYI
+    */
+    public void DessinerJeu()
+    {
+        DessinerCadre();
     }
 
     /* ... */
