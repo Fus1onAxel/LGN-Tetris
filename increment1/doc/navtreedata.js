@@ -27,7 +27,11 @@ var NAVTREE =
   [ "TetrisGame", "index.html", [
     [ "LGN-Tetris", "md__r_e_a_d_m_e.html", null ],
     [ "Espaces de nommage", "namespaces.html", [
-      [ "Liste des espaces de nommage", "namespaces.html", "namespaces_dup" ]
+      [ "Liste des espaces de nommage", "namespaces.html", "namespaces_dup" ],
+      [ "Membres de l'espace de nommage", "namespacemembers.html", [
+        [ "Tout", "namespacemembers.html", null ],
+        [ "Énumérations", "namespacemembers_enum.html", null ]
+      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Liste des classes", "annotated.html", "annotated_dup" ],

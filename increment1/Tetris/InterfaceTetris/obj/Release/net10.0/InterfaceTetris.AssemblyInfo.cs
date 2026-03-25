@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterfaceTetris")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb0838b9760169d40f5da962bf397ceb5927ab20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f710f2ebd4c67ada0810a3b4e8341a1ba213fc5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterfaceTetris")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterfaceTetris")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

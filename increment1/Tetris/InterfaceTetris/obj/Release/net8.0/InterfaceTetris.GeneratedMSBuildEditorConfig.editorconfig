@@ -15,12 +15,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = InterfaceTetris
-build_property.ProjectDir = C:\Users\ulenquet\Documents\GitHub\LGN-Tetris\increment1\Tetris\InterfaceTetris\
+build_property.ProjectDir = C:\Users\adavid39\Documents\GitHub\LGN-Tetris\increment1\Tetris\InterfaceTetris\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/ulenquet/Documents/GitHub/LGN-Tetris/increment1/Tetris/InterfaceTetris/App.axaml]
+[C:/Users/adavid39/Documents/GitHub/LGN-Tetris/increment1/Tetris/InterfaceTetris/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/ulenquet/Documents/GitHub/LGN-Tetris/increment1/Tetris/InterfaceTetris/MainWindow.axaml]
+[C:/Users/adavid39/Documents/GitHub/LGN-Tetris/increment1/Tetris/InterfaceTetris/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

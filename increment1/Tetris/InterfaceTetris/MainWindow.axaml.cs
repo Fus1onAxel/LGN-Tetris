@@ -10,11 +10,9 @@ using Avalonia.Controls;
 using Avalonia.Input;
 using System;
 using Avalonia.Threading;
-using NoyauTetris;
-// à ajouter à partir de l'itération 1
-//using NoyauTetris;
+using Tetris.NoyauTetris;
 
-namespace InterfaceTetris;
+namespace Tetris.InterfaceTetris;
 
 /* Gère la fenêtre principale du jeu de Tetris, et l'ensemble des interactions du jeu. */
 public partial class MainWindow : Window
@@ -25,14 +23,15 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+
         // Défini la taille de la fenêtre à partir des constantes
-        Width = 300;
-        Height = 600;
+        Width = 400;
+        Height = 800;
         // Définit le texte de InfoText
         InfoText.Text = "Zone de texte";
         // Défini la taille du canvas à partir des constantes
-        TetrisCanvas.Width = 200;
-        TetrisCanvas.Height = 400;
+        TetrisCanvas.Width = 288;
+        TetrisCanvas.Height = 342;
         // Défini la taille des boutons à partir des constantes
         StartButton.Width = 200;
         StartButton.Height = 30;
@@ -73,6 +72,10 @@ public partial class MainWindow : Window
                 TombeInterface();
             }
         };
+        DessinerCadre();
+        DessinerCarre(0, 0, TranslateColor((int)TetrinoCouleur.yellow));
+        DessinerCarre(1, 1, TranslateColor((int)TetrinoCouleur.green));
+        DessinerCarre(2, 2, TranslateColor((int)TetrinoCouleur.red));
     } 
 
     /* Dessine un rectangle dans le TetrisCanvas, à la position (x, y), de largeur width, 
@@ -87,45 +90,49 @@ public partial class MainWindow : Window
             Margin = new Thickness(x, y, 0, 0) 
         });
     }
-
-    /**
-    
-    */
-public IImmutableSolidColorBrush TranslateColor(int color)
-{
-    switch (color)
+    public Avalonia.Media.IBrush TranslateColor(int color) //TetrinoCouleur.couleur
     {
-        case 0:
-            return Brushes.White;
+        switch (color)
+        {
+            case 0:
+                return Avalonia.Media.Brushes.White;
 
-        case 1:
-            return Brushes.Black;
+            case 1:
+                return Avalonia.Media.Brushes.Black;
 
-        case 2:
-            return Brushes.Blue;
+            case 2:
+                return Avalonia.Media.Brushes.Blue;
 
-        case 3:
-            return Brushes.Green;
+            case 3:
+                return Avalonia.Media.Brushes.Green;
 
-        case 4:
-            return Brushes.Red;
+            case 4:
+                return Avalonia.Media.Brushes.Red;
 
-        case 5:
-            return Brushes.Yellow;
+            case 5:
+                return Avalonia.Media.Brushes.Yellow;
 
-        case 6:
-            return Brushes.Violet;
+            case 6:
+                return Avalonia.Media.Brushes.Violet;
 
-        case 7:
-            return Brushes.Orange;
+            case 7:
+                return Avalonia.Media.Brushes.Orange;
 
-        default:
-            Console.WriteLine("La couleur doit être comprise entre 0 et 7");
-            return Brushes.White;
+            default:
+                Console.WriteLine("La couleur doit être comprise entre 0 et 7");
+                return Avalonia.Media.Brushes.White;
+        }
     }
-}
 
-
+    /* DessinerCadre
+        La fonction dessine le cadre de jeu qui se compose d'un cadre noir au fond pour la marge des cotes et du bas et un cadre blanc centré au dessus qui est plus petit.
+        @author UrielLENQUETTE
+    */
+    public void DessinerCadre()
+    {
+        DessinerRectangle(0, 0, 288, 342, TranslateColor((int)TetrinoCouleur.black));
+        DessinerRectangle(12, 0, 264, 330, TranslateColor((int)TetrinoCouleur.white));
+    }
 
     /** DessinerCarre
         La fonction dessine un carré sur scène en fonction des coordonnées données et la couleur
@@ -136,38 +143,17 @@ public IImmutableSolidColorBrush TranslateColor(int color)
     */
     public void DessinerCarre(int x, int y, Avalonia.Media.IBrush couleur)
     {
-        //Les coordonnées sont conver
+        //Les coordonnées sont converties
         //Création du carré qui correspond à la bordure
-        DessinerRectangle((x*22+12), y*22, 22, 22, TranslateColor(1));
+        DessinerRectangle((x*22+12)-1, y*22, 22, 22, TranslateColor((int)TetrinoCouleur.black));
         //Remplissage du fond du carré par création d'un autre carré
-        DessinerRectangle((x*22+12), y*22, 20, 20, couleur);
-    }
-
-
-    /* DessinerCarre
-        La fonction dessine le cadre de jeu qui se compose d'un cadre noir au fond pour la marge des cotes et du bas et un cadre blanc centré au dessus qui est plus petit.
-        @author UrielLENQUETTE
-    */
-
-    public void DessinerCadre()
-    {
-        int coteCadrePixel = 22;
-        int pixelLargeurGrilleInterieur = NoyauTetris.JeuTetris.LargeurGrille * coteCadrePixel;
-        int pixelHauteurGrilleInterieur = NoyauTetris.JeuTetris.HauteurTetris * coteCadrePixel;
-        int pixelLargeurGrilleExterieur = pixelHauteurGrilleInterieur + 12*2;
-        int pixelHauteurGrilleExterieur = pixelHauteurGrilleInterieur + 12;
-        DessinerRectangle(0, 0, pixelLargeurGrilleExterieur, pixelHauteurGrilleExterieur, TranslateColor(TetrinoCouleur.black));
-        DessinerRectangle(12, 0, pixelLargeurGrilleInterieur, pixelHauteurGrilleInterieur, TranslateColor(TetrinoCouleur.white));
+        DessinerRectangle((x*22+12)+1, y*22+2, 18, 18, couleur);
     }
 
     /* ... */
     public void DemarrerInterface()
     {
         Console.WriteLine("Démarrage du jeu de Tetris à coder...");
-        DessinerCadre();
-        DessinerCarre(0, 0, TranslateColor(TetrinoCouleur.red));
-        DessinerCarre(1, 1, TranslateColor(TetrinoCouleur.yellow));
-        DessinerCarre(2, 2, TranslateColor(TetrinoCouleur.blue));
     }
 
     /* ... */

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mainwindow_0',['MainWindow',['../class_interface_tetris_1_1_main_window.html',1,'InterfaceTetris']]]
+  ['jeutetris_0',['JeuTetris',['../class_tetris_1_1_noyau_tetris_1_1_jeu_tetris.html',1,'Tetris::NoyauTetris']]]
 ];
