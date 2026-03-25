@@ -5,6 +5,11 @@ public class NoyauTetris
 
 }
 
+public class Tetrino
+{
+
+}
+
 public class JeuTetris
 {
     public int LargeurGrille;
@@ -17,6 +22,12 @@ public class JeuTetris
     }
 }
 
+    /** Position
+        La classe position enregistre une position sur la grille
+        @author Axel DAVID
+        @param x la coordonnée horizontale dans l'espace dans la grille des carrés
+        @param y la coordonnée verticale dans l'espace dans la grille des carrés
+    */
 public class Position
 {
     public int X;
