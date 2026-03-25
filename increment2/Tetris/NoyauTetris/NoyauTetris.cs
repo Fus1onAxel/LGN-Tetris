@@ -7,7 +7,27 @@ public class NoyauTetris
 
 public class Tetrino
 {
-
+    public static Position[][] TetrinosTab = new Position[][]
+    {
+        // carre
+        new Position[] 
+        { 
+            new Position(0, 0), new Position(1, 0),
+            new Position(0, -1), new Position(1, -1) 
+        },
+        // barre horizontale
+        new Position[] 
+        { 
+            new Position(0, 0), new Position(1, 0),
+            new Position(2, 0), new Position(3, 0) 
+        },
+        // barre verticale
+        new Position[] 
+        { 
+            new Position(0, 0), new Position(0, -1),
+            new Position(0, -2), new Position(0, -3) 
+        }
+    }
 }
 
 public class JeuTetris
@@ -22,12 +42,12 @@ public class JeuTetris
     }
 }
 
-    /** Position
-        La classe position enregistre une position sur la grille
-        @author Axel DAVID
-        @param x la coordonnée horizontale dans l'espace dans la grille des carrés
-        @param y la coordonnée verticale dans l'espace dans la grille des carrés
-    */
+/** Position
+    La classe position enregistre une position sur la grille
+    @author Axel DAVID
+    @param x la coordonnée horizontale dans l'espace dans la grille des carrés
+    @param y la coordonnée verticale dans l'espace dans la grille des carrés
+*/
 public class Position
 {
     public int X;
