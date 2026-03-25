@@ -73,9 +73,6 @@ public partial class MainWindow : Window
             }
         };
         DessinerCadre();
-        DessinerCarre(0, 0, TranslateColor((int)TetrinoCouleur.yellow));
-        DessinerCarre(1, 1, TranslateColor((int)TetrinoCouleur.green));
-        DessinerCarre(2, 2, TranslateColor((int)TetrinoCouleur.red));
     } 
 
     /* Dessine un rectangle dans le TetrisCanvas, à la position (x, y), de largeur width, 
@@ -153,6 +150,9 @@ public partial class MainWindow : Window
     /* ... */
     public void DemarrerInterface()
     {
+        DessinerCarre(0, 0, TranslateColor((int)TetrinoCouleur.yellow));
+        DessinerCarre(1, 1, TranslateColor((int)TetrinoCouleur.green));
+        DessinerCarre(2, 2, TranslateColor((int)TetrinoCouleur.red));
         Console.WriteLine("Démarrage du jeu de Tetris à coder...");
     }
 

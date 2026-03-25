@@ -1385,17 +1385,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\packages_avalonia": {},
+    "C:\\DevCaches\\nuget_packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj",
+      "projectUniqueName": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj",
       "projectName": "InterfaceTetris",
-      "projectPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj",
-      "packagesPath": "C:\\packages_avalonia",
-      "outputPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\InterfaceTetris\\obj\\",
+      "projectPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj",
+      "packagesPath": "C:\\DevCaches\\nuget_packages",
+      "outputPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\InterfaceTetris\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1417,8 +1417,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\NoyauTetris\\NoyauTetris.csproj": {
-              "projectPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\NoyauTetris\\NoyauTetris.csproj"
+            "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\NoyauTetris\\NoyauTetris.csproj": {
+              "projectPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\NoyauTetris\\NoyauTetris.csproj"
             }
           }
         }

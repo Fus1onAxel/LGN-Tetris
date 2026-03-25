@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj": {}
+    "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj": {
+    "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj",
+        "projectUniqueName": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj",
         "projectName": "InterfaceTetris",
-        "projectPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj",
-        "packagesPath": "C:\\packages_avalonia",
-        "outputPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\InterfaceTetris\\obj\\",
+        "projectPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\InterfaceTetris\\InterfaceTetris.csproj",
+        "packagesPath": "C:\\DevCaches\\nuget_packages",
+        "outputPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\InterfaceTetris\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\NoyauTetris\\NoyauTetris.csproj": {
-                "projectPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\NoyauTetris\\NoyauTetris.csproj"
+              "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\NoyauTetris\\NoyauTetris.csproj": {
+                "projectPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\NoyauTetris\\NoyauTetris.csproj"
               }
             }
           }
@@ -372,14 +372,14 @@
         }
       }
     },
-    "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\NoyauTetris\\NoyauTetris.csproj": {
+    "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\NoyauTetris\\NoyauTetris.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\NoyauTetris\\NoyauTetris.csproj",
+        "projectUniqueName": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\NoyauTetris\\NoyauTetris.csproj",
         "projectName": "NoyauTetris",
-        "projectPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\NoyauTetris\\NoyauTetris.csproj",
-        "packagesPath": "C:\\packages_avalonia",
-        "outputPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment1\\Tetris\\NoyauTetris\\obj\\",
+        "projectPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\NoyauTetris\\NoyauTetris.csproj",
+        "packagesPath": "C:\\DevCaches\\nuget_packages",
+        "outputPath": "C:\\Users\\adavid39\\Documents\\GitHub\\LGN-Tetris\\increment2\\Tetris\\NoyauTetris\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
