@@ -11,12 +11,12 @@ namespace TestTetris;
 public class UnitTest1
 {
     /**
-     * @test Test_Position_Deplacement
+     * @test TestPositionDeplacement
      * @brief Vérifie les déplacements gauche, droite et bas d'une position.
      * @author Ivan
      */
     [Fact]
-    public void Test_Position_Deplacement()
+    public void TestPositionDeplacement()
     {
         var pos = new Position(5, 5);
         pos.DeplacerGauche();
@@ -28,12 +28,12 @@ public class UnitTest1
     }
 
     /**
-     * @test Test_Tetrino_Positions_Carre
+     * @test TestTetrinoPositionsCarre
      * @brief Vérifie que les positions globales du tetrino carré sont correctes.
      * @author Axel
      */
     [Fact]
-    public void Test_Tetrino_Positions_Carre()
+    public void TestTetrinoPositionsCarre()
     {
         var tetrino = new Tetrino();
         tetrino.Indice = 0; // carré
@@ -46,12 +46,12 @@ public class UnitTest1
     }
 
     /**
-     * @test Test_JeuTetris_Droite_Gauche
+     * @test TestJeuTetrisDroiteGauche
      * @brief Vérifie le déplacement à droite puis à gauche du tetrino courant.
      * @author Zakaria
      */
     [Fact]
-    public void Test_JeuTetris_Droite_Gauche()
+    public void TestJeuTetrisDroiteGauche()
     {
         var jeu = new JeuTetris();
         jeu.Demarrer();
@@ -63,12 +63,12 @@ public class UnitTest1
     }
 
     /**
-     * @test Test_JeuTetris_Bas_Tombe
+     * @test TestJeuTetrisBasTombe
      * @brief Vérifie le déplacement vers le bas et la chute complète du tetrino courant.
      * @author Uriel
      */
     [Fact]
-    public void Test_JeuTetris_Bas_Tombe()
+    public void TestJeuTetrisBasTombe()
     {
         var jeu = new JeuTetris();
         jeu.Demarrer();
@@ -82,12 +82,12 @@ public class UnitTest1
     }
 
     /**
-     * @test Test_Tetrino_NouveauTetrino
+     * @test TestTetrinoNouveauTetrino
      * @brief Vérifie la génération aléatoire d'un nouveau tetrino (position et couleur).
      * @author Axel
      */
     [Fact]
-    public void Test_Tetrino_NouveauTetrino()
+    public void TestTetrinoNouveauTetrino()
     {
         var tetrino = new Tetrino();
         tetrino.NouveauTetrino(12);
