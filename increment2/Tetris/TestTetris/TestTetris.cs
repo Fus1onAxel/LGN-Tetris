@@ -4,17 +4,17 @@ using Xunit;
 namespace TestTetris;
 
 /**
- * @class UnitTest1
- * @brief Contient les tests unitaires pour les classes du noyau Tetris.
- * @author Axel, Uriel, Ivan, Zakaria
- */
+* @class UnitTest1
+* @brief Contient les tests unitaires pour les classes du noyau Tetris.
+* @author Axel, Uriel, Ivan, Zakaria
+*/
 public class UnitTest1
 {
     /**
-     * @test TestPositionDeplacement
-     * @brief Vérifie les déplacements gauche, droite et bas d'une position.
-     * @author Ivan
-     */
+    * @test TestPositionDeplacement
+    * @brief Vérifie les déplacements gauche, droite et bas d'une position.
+    * @author Ivan
+    */
     [Fact]
     public void TestPositionDeplacement()
     {
@@ -28,10 +28,10 @@ public class UnitTest1
     }
 
     /**
-     * @test TestTetrinoPositionsCarre
-     * @brief Vérifie que les positions globales du tetrino carré sont correctes.
-     * @author Axel
-     */
+    * @test TestTetrinoPositionsCarre
+    * @brief Vérifie que les positions globales du tetrino carré sont correctes.
+    * @author Axel
+    */
     [Fact]
     public void TestTetrinoPositionsCarre()
     {
@@ -46,10 +46,10 @@ public class UnitTest1
     }
 
     /**
-     * @test TestJeuTetrisDroiteGauche
-     * @brief Vérifie le déplacement à droite puis à gauche du tetrino courant.
-     * @author Zakaria
-     */
+    * @test TestJeuTetrisDroiteGauche
+    * @brief Vérifie le déplacement à droite puis à gauche du tetrino courant.
+    * @author Zakaria
+    */
     [Fact]
     public void TestJeuTetrisDroiteGauche()
     {
@@ -63,10 +63,10 @@ public class UnitTest1
     }
 
     /**
-     * @test TestJeuTetrisBasTombe
-     * @brief Vérifie le déplacement vers le bas et la chute complète du tetrino courant.
-     * @author Uriel
-     */
+    * @test TestJeuTetrisBasTombe
+    * @brief Vérifie le déplacement vers le bas et la chute complète du tetrino courant.
+    * @author Uriel
+    */
     [Fact]
     public void TestJeuTetrisBasTombe()
     {
@@ -82,10 +82,10 @@ public class UnitTest1
     }
 
     /**
-     * @test TestTetrinoNouveauTetrino
-     * @brief Vérifie la génération aléatoire d'un nouveau tetrino (position et couleur).
-     * @author Axel
-     */
+    * @test TestTetrinoNouveauTetrino
+    * @brief Vérifie la génération aléatoire d'un nouveau tetrino (position et couleur).
+    * @author Axel
+    */
     [Fact]
     public void TestTetrinoNouveauTetrino()
     {
