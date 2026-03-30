@@ -29,7 +29,6 @@ public partial class MainWindow : Window
 
     /** 
     * @brief Attribut qui définit le jeu en cours.
-    * @author Axel
     */
     public JeuTetris Jeu;
 
@@ -102,7 +101,6 @@ public partial class MainWindow : Window
     * @param with Largeur du rectangle
     * @param height Hauteur du rectangle
     * @param couleur Couleur du rectangle
-    * @author Ivan
     */
     public void DessinerRectangle(int x, int y, int with, int height, Avalonia.Media.IBrush couleur)
     {
