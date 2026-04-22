@@ -1,0 +1,6 @@
+/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/InterfaceTetris/bin/Release/net9.0/osx-arm64/publish/InterfaceTetris.pdb
+/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/InterfaceTetris/bin/Release/net9.0/osx-arm64/publish/libAvaloniaNative.dylib
+/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/InterfaceTetris/bin/Release/net9.0/osx-arm64/publish/libHarfBuzzSharp.dylib
+/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/InterfaceTetris/bin/Release/net9.0/osx-arm64/publish/libSkiaSharp.dylib
+/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/InterfaceTetris/bin/Release/net9.0/osx-arm64/publish/NoyauTetris.pdb
+/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/InterfaceTetris/bin/Release/net9.0/osx-arm64/publish/InterfaceTetris

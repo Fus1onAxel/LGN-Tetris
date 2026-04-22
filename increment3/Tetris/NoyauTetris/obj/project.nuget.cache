@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GdGFoTm+N9M=",
+  "success": true,
+  "projectFilePath": "/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/NoyauTetris/NoyauTetris.csproj",
+  "expectedPackageFiles": [
+    "/Users/axel/.nuget/packages/microsoft.net.illink.tasks/9.0.8/microsoft.net.illink.tasks.9.0.8.nupkg.sha512",
+    "/Users/axel/.nuget/packages/microsoft.netcore.app.runtime.osx-arm64/9.0.8/microsoft.netcore.app.runtime.osx-arm64.9.0.8.nupkg.sha512",
+    "/Users/axel/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-arm64/9.0.8/microsoft.aspnetcore.app.runtime.osx-arm64.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
