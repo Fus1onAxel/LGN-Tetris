@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/InterfaceTetris/InterfaceTetris.csproj": {}
+  },
+  "projects": {
+    "/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/InterfaceTetris/InterfaceTetris.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/InterfaceTetris/InterfaceTetris.csproj",
+        "projectName": "InterfaceTetris",
+        "projectPath": "/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/InterfaceTetris/InterfaceTetris.csproj",
+        "packagesPath": "/Users/axel/.nuget/packages/",
+        "outputPath": "/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/InterfaceTetris/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/axel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/NoyauTetris/NoyauTetris.csproj": {
+                "projectPath": "/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/NoyauTetris/NoyauTetris.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.3.12, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.3.12, )"
+            },
+            "Avalonia.Diagnostics": {
+              "include": "None",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[11.3.12, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.3.12, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.3.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/NoyauTetris/NoyauTetris.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/NoyauTetris/NoyauTetris.csproj",
+        "projectName": "NoyauTetris",
+        "projectPath": "/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/NoyauTetris/NoyauTetris.csproj",
+        "packagesPath": "/Users/axel/.nuget/packages/",
+        "outputPath": "/Users/axel/Documents/GitHub/LGN-Tetris/increment3/Tetris/NoyauTetris/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/axel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
